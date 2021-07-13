@@ -51,9 +51,9 @@ $helper = new addtional_settings_helper();
 echo $OUTPUT->header();
 
 if ($type == 'course') {
-    $data = $helper->searchByCourseID($id);
+    $data = $helper->searchbycourseid($id);
 } else if ($type == 'quiz') {
-    $data = $helper->searchByQuizID($id);
+    $data = $helper->searchbyquizid($id);
 } else {
     echo "invalid type";
 }
@@ -63,7 +63,7 @@ foreach ($data as $row) {
 }
 
 $rowidstring = implode(',', $rowids);
-$helper->deleteLogs($rowidstring);
+$helper->deletelogs($rowidstring);
 
 
 $params = array(
