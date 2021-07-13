@@ -257,10 +257,12 @@ class quizaccess_proctoring_external extends external_api
 
     /**
      * Check user capability
+     *
      * @param array $params
      * @param context $context
      * @param $USER
      * @return void
+     *
      * @throws dml_exception
      * @throws moodle_exception
      * @throws required_capability_exception
@@ -277,6 +279,7 @@ class quizaccess_proctoring_external extends external_api
 
     /**
      * Adds timestamp information to captured image.
+     *
      * @param $data
      * @return string
      */

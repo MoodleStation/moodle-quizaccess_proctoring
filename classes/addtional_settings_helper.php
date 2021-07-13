@@ -22,6 +22,12 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+/**
+ * Addtional Settings Helper class.
+ *
+ * @copyright  2020 Brain Station 23
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 class addtional_settings_helper {
     /**
      * Search for specific user proctoring log.

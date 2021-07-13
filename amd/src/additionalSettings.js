@@ -39,6 +39,9 @@ define(['jquery', 'core/ajax', 'core/notification'],
                     refreshDeleteIdStringValue();
                 });
 
+                /**
+                 * Refresh Delete Id String Value.
+                 */
                 function refreshDeleteIdStringValue() {
                     var idArray = [];
                     var checkBoxArray = document.getElementsByClassName('reportIdChkBox');

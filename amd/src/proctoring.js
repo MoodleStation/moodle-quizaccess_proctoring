@@ -154,6 +154,7 @@ define(['jquery', 'core/ajax', 'core/notification'],
 
             /**
              * Startup
+             * @constructor
              */
             function startup(props) {
                 video = document.getElementById('video');
